@@ -33,7 +33,7 @@ def main(args=None):
     history_data = []
     
     print(f"Encontrados {len(model_files)} modelos. Iniciando reconstrucción histórica...")
-    print("Esto tomará unos minutos, pero mucho menos que entrenar de nuevo.")
+    print("Esto tomará unos minutos")
 
     for model_path in model_files:
         episode_num = extract_episode_num(model_path)
@@ -73,13 +73,13 @@ def main(args=None):
     
     plt.figure(figsize=(10, 6))
     plt.plot(df['Episode'], df['Avg_Reward'], marker='o', linestyle='-', color='b')
-    plt.title('Evolución del Aprendizaje (Reconstruida)')
+    plt.title('Curva del entrenamiento')
     plt.xlabel('Episodios de Entrenamiento')
     plt.ylabel('Recompensa Promedio (Evaluación)')
     plt.grid(True)
-    plt.savefig('grafica_evolucion_reconstruida.png')
+    plt.savefig('grafica_curva.png')
     
-    print("¡Listo! Gráfica guardada como 'grafica_evolucion_reconstruida.png'")
+    print("¡Listo! Gráfica guardada como 'grafica_curva.png'")
     
     env.destroy_node()
     rclpy.shutdown()

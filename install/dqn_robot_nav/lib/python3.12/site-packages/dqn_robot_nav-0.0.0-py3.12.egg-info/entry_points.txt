@@ -1,5 +1,0 @@
-[console_scripts]
-reconstruct_history = dqn_robot_nav.reconstruct_history:main
-reset_stage = dqn_robot_nav.reset_stage:main
-test_node = dqn_robot_nav.test_node:main
-train_node = dqn_robot_nav.train_node:main

@@ -1,1 +1,0 @@
-/home/mateozc/Diplomado/Lab2/src/stage_ros2/launch/demo.launch.py

@@ -1,1 +1,0 @@
-/home/mateozc/Diplomado/Lab2/build/stage_ros2/ament_cmake_core/stage_ros2Config-version.cmake
