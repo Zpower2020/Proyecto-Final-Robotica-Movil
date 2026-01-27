@@ -47,7 +47,7 @@ ros2 run dqn_robot_nav train_node
 #### Opción B: EVALUAR (Test Final)
 Para probar un modelo ya entrenado, debes seleccionar cuál usar:
 
-1. Si realizaste un entrenamiento reciente, ve a la carpeta `saved_models` y elige el archivo de modelo que desees(En general el ultimo es el mejor, como `dqn_model_490.pkl`); copialo y ve a la carpeta `saved_models`, pega el archivo y renombralo modificando el numero final (`..._490.pkl`) por un numero que corresponda al numero de modelo mas reciente en la carpeta (Por ejemplo `dqn_model_1.pkl` o `dqn_model_2.pkl`). Estos otros archivos de modelo son de anteriores entrenamientos con el objetivo de evaluar cada uno y determinar el mejor rendimiento.
+1. Si realizaste un entrenamiento reciente, ve a la carpeta `saved_models` y elige el archivo de modelo que desees (En general el ultimo es el mejor, como `dqn_model_490.pkl`); copialo y ve a la carpeta `saved_models`, pega el archivo y renombralo modificando el numero final (`..._490.pkl`) por un numero que corresponda al numero de modelo mas reciente en la carpeta (Por ejemplo `dqn_model_1.pkl` o `dqn_model_2.pkl`). Estos otros archivos de modelo son de anteriores entrenamientos con el objetivo de evaluar cada uno y determinar el mejor rendimiento.
 2. Abre el archivo `src/dqn_robot_nav/dqn_robot_nav/test_node.py`.
 3. Busca la línea que dice `model_path =` y cambia el numero final del nombre del archivo por el del modelo que desees evaluar (El archivo `dqn_model_1.pkl` es el modelo presente en la carpeta con mayor porcentaje de exito):
 
