@@ -1,0 +1,381 @@
+[0.000000] (-) TimerEvent: {}
+[0.002165] (dqn_robot_nav) JobQueued: {'identifier': 'dqn_robot_nav', 'dependencies': OrderedDict()}
+[0.003152] (stage) JobQueued: {'identifier': 'stage', 'dependencies': OrderedDict()}
+[0.004657] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict({'stage': '/home/mateozc/Diplomado/Lab2/install/stage'})}
+[0.004959] (stage) JobStarted: {'identifier': 'stage'}
+[0.062262] (dqn_robot_nav) JobStarted: {'identifier': 'dqn_robot_nav'}
+[0.102729] (-) TimerEvent: {}
+[0.133040] (stage) JobProgress: {'identifier': 'stage', 'progress': 'cmake'}
+[0.136840] (stage) JobProgress: {'identifier': 'stage', 'progress': 'build'}
+[0.141969] (stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mateozc/Diplomado/Lab2/build/stage', '--', '-j4', '-l4'], 'cwd': '/home/mateozc/Diplomado/Lab2/build/stage', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2475-5-mateozc-Lenovo-ideapad-700S-14ISK_TIME505705', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mateozc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib:/home/mateozc/Diplomado/Lab2/install/stage/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mateozc', 'OLDPWD': '/home/mateozc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2230', 'SYSTEMD_EXEC_PID': '2475', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5174', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mateozc', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'JOURNAL_STREAM': '9:17063', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/mateozc/Diplomado/Lab2/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mateozc', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/mateozc/Diplomado/Lab2/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mateozc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mateozc-Lenovo-ideapad-700S-14ISK:@/tmp/.ICE-unix/2439,unix/mateozc-Lenovo-ideapad-700S-14ISK:/tmp/.ICE-unix/2439', 'INVOCATION_ID': '65e473e4c4bf4c8e996c6b97e766badd', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OYWHJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3e98d76c-0c83-4972-9411-e4035a87fcd5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mateozc/Diplomado/Lab2/build/stage', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2:/home/mateozc/Diplomado/Lab2/install/stage:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.203020] (-) TimerEvent: {}
+[0.304082] (-) TimerEvent: {}
+[0.405129] (-) TimerEvent: {}
+[0.506305] (-) TimerEvent: {}
+[0.610376] (-) TimerEvent: {}
+[0.713089] (-) TimerEvent: {}
+[0.778027] (stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[0.813300] (-) TimerEvent: {}
+[0.914423] (-) TimerEvent: {}
+[1.016042] (-) TimerEvent: {}
+[1.029684] (stage) StdoutLine: {'line': b'[ 61%] Built target stagebinary\n'}
+[1.117103] (-) TimerEvent: {}
+[1.230046] (-) TimerEvent: {}
+[1.270025] (stage) StdoutLine: {'line': b'[ 64%] Built target source\n'}
+[1.330297] (-) TimerEvent: {}
+[1.431642] (-) TimerEvent: {}
+[1.466520] (stage) StdoutLine: {'line': b'[ 67%] Built target wander\n'}
+[1.531943] (-) TimerEvent: {}
+[1.632997] (-) TimerEvent: {}
+[1.651945] (stage) StdoutLine: {'line': b'[ 71%] Built target pioneer_flocking\n'}
+[1.734048] (-) TimerEvent: {}
+[1.840406] (-) TimerEvent: {}
+[1.941526] (-) TimerEvent: {}
+[2.042634] (-) TimerEvent: {}
+[2.048072] (stage) StdoutLine: {'line': b'[ 74%] Built target rasterize\n'}
+[2.142907] (-) TimerEvent: {}
+[2.244024] (-) TimerEvent: {}
+[2.347027] (-) TimerEvent: {}
+[2.407718] (stage) StdoutLine: {'line': b'[ 77%] Built target lasernoise\n'}
+[2.450055] (-) TimerEvent: {}
+[2.555114] (-) TimerEvent: {}
+[2.659051] (-) TimerEvent: {}
+[2.734535] (stage) StdoutLine: {'line': b'[ 81%] Built target dynamic\n'}
+[2.759293] (-) TimerEvent: {}
+[2.864138] (-) TimerEvent: {}
+[2.970797] (-) TimerEvent: {}
+[2.991731] (stage) StdoutLine: {'line': b'[ 86%] Built target fasr2\n'}
+[3.071023] (-) TimerEvent: {}
+[3.172086] (-) TimerEvent: {}
+[3.197346] (stage) StdoutLine: {'line': b'[ 89%] Built target expand_swarm\n'}
+[3.272301] (-) TimerEvent: {}
+[3.373603] (-) TimerEvent: {}
+[3.418422] (stage) StdoutLine: {'line': b'[ 93%] Built target expand_pioneer\n'}
+[3.473910] (-) TimerEvent: {}
+[3.576357] (-) TimerEvent: {}
+[3.636184] (stage) StdoutLine: {'line': b'[ 96%] Built target sink\n'}
+[3.676620] (-) TimerEvent: {}
+[3.780482] (-) TimerEvent: {}
+[3.873823] (stage) StdoutLine: {'line': b'[100%] Built target fasr\n'}
+[3.880710] (-) TimerEvent: {}
+[3.980938] (stage) CommandEnded: {'returncode': 0}
+[3.983555] (-) TimerEvent: {}
+[3.989199] (stage) JobProgress: {'identifier': 'stage', 'progress': 'install'}
+[4.077997] (stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mateozc/Diplomado/Lab2/build/stage'], 'cwd': '/home/mateozc/Diplomado/Lab2/build/stage', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2475-5-mateozc-Lenovo-ideapad-700S-14ISK_TIME505705', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mateozc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib:/home/mateozc/Diplomado/Lab2/install/stage/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mateozc', 'OLDPWD': '/home/mateozc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2230', 'SYSTEMD_EXEC_PID': '2475', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5174', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mateozc', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'JOURNAL_STREAM': '9:17063', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/mateozc/Diplomado/Lab2/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mateozc', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/mateozc/Diplomado/Lab2/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mateozc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mateozc-Lenovo-ideapad-700S-14ISK:@/tmp/.ICE-unix/2439,unix/mateozc-Lenovo-ideapad-700S-14ISK:/tmp/.ICE-unix/2439', 'INVOCATION_ID': '65e473e4c4bf4c8e996c6b97e766badd', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OYWHJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3e98d76c-0c83-4972-9411-e4035a87fcd5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mateozc/Diplomado/Lab2/build/stage', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2:/home/mateozc/Diplomado/Lab2/install/stage:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[4.084660] (-) TimerEvent: {}
+[4.153527] (stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[4.156130] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/pkgconfig/stage.pc\n'}
+[4.157573] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/cmake/Stage/stage-config.cmake\n'}
+[4.158897] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[4.160376] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/bin/stage\n'}
+[4.162755] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/libstage.so.4.3.0\n'}
+[4.164365] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/libstage.so\n'}
+[4.165363] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/include/Stage-4.3/stage.hh\n'}
+[4.169144] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/fasr.so\n'}
+[4.172406] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/sink.so\n'}
+[4.175763] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/source.so\n'}
+[4.179098] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/wander.so\n'}
+[4.182517] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[4.184943] (-) TimerEvent: {}
+[4.186107] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/rasterize.so\n'}
+[4.191004] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/lasernoise.so\n'}
+[4.194995] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/dynamic.so\n'}
+[4.197742] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/fasr2.so\n'}
+[4.201708] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/blue.png\n'}
+[4.205295] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/death.png\n'}
+[4.206255] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/green.png\n'}
+[4.212478] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/logo.png\n'}
+[4.215142] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/mains.png\n'}
+[4.218535] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/mainspower.png\n'}
+[4.221471] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/question_mark.png\n'}
+[4.222497] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/red.png\n'}
+[4.223527] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/stagelogo.png\n'}
+[4.224734] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/stall-old.png\n'}
+[4.225669] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/stall.png\n'}
+[4.226735] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/rgb.txt\n'}
+[4.227843] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/rgb.txt\n'}
+[4.229030] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[4.230093] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/autolab.cfg\n'}
+[4.231411] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/camera.cfg\n'}
+[4.232705] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/everything.cfg\n'}
+[4.233784] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/lsp_test.cfg\n'}
+[4.234911] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/mbicp.cfg\n'}
+[4.236580] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/nd.cfg\n'}
+[4.237596] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/roomba.cfg\n'}
+[4.238501] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/simple.cfg\n'}
+[4.241392] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/test.cfg\n'}
+[4.244622] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[4.245591] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/vfh.cfg\n'}
+[4.248181] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[4.249603] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wavefront.cfg\n'}
+[4.250702] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi.cfg\n'}
+[4.251785] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/SFU.world\n'}
+[4.252992] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/autolab.world\n'}
+[4.254033] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/camera.world\n'}
+[4.255086] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/circuit.world\n'}
+[4.256156] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/everything.world\n'}
+[4.257414] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/fasr.world\n'}
+[4.258412] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/fasr2.world\n'}
+[4.259225] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/fasr_plan.world\n'}
+[4.260057] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/large.world\n'}
+[4.266379] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/lsp_test.world\n'}
+[4.267228] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/mbicp.world\n'}
+[4.268114] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pioneer_flocking.world\n'}
+[4.274383] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pioneer_follow.world\n'}
+[4.275684] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pioneer_walle.world\n'}
+[4.276653] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/roomba.world\n'}
+[4.277587] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[4.278459] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[4.279350] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/simple.world\n'}
+[4.280306] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[4.281458] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi.world\n'}
+[4.283061] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/beacons.inc\n'}
+[4.283904] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/chatterbox.inc\n'}
+[4.284712] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/hokuyo.inc\n'}
+[4.285529] (-) TimerEvent: {}
+[4.286914] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/irobot.inc\n'}
+[4.290700] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/map.inc\n'}
+[4.291634] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/objects.inc\n'}
+[4.292470] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pantilt.inc\n'}
+[4.296348] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pioneer.inc\n'}
+[4.297227] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/sick.inc\n'}
+[4.298048] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/ubot.inc\n'}
+[4.298939] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[4.303824] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/walle.inc\n'}
+[4.304668] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/cfggen.sh\n'}
+[4.305465] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/test.sh\n'}
+[4.310428] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/worldgen.sh\n'}
+[4.311711] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/expand_swarm.so\n'}
+[4.314766] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[4.315803] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[4.316596] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[4.321303] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[4.322320] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[4.326117] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/cave.png\n'}
+[4.327200] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[4.331399] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[4.332477] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[4.336987] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[4.338362] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[4.340032] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[4.341000] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[4.341759] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[4.342721] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/rink.png\n'}
+[4.343555] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[4.345290] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[4.346188] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[4.346960] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[4.347714] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[4.348506] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/table.png\n'}
+[4.349291] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[4.350054] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/commando.world\n'}
+[4.351273] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[4.352226] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[4.356039] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi.world\n'}
+[4.359001] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[4.360382] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[4.362805] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[4.365363] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[4.366797] (stage) StdoutLine: {'line': b'-- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/map.inc\n'}
+[4.369043] (stage) CommandEnded: {'returncode': 0}
+[4.385777] (-) TimerEvent: {}
+[4.490653] (-) TimerEvent: {}
+[4.593010] (stage) JobEnded: {'identifier': 'stage', 'rc': 0}
+[4.599207] (-) TimerEvent: {}
+[4.612391] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[4.701659] (-) TimerEvent: {}
+[4.777085] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[4.777472] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[4.777748] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mateozc/Diplomado/Lab2/build/stage_ros2', '--', '-j4', '-l4'], 'cwd': '/home/mateozc/Diplomado/Lab2/build/stage_ros2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2475-5-mateozc-Lenovo-ideapad-700S-14ISK_TIME505705', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mateozc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/lib:/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mateozc', 'OLDPWD': '/home/mateozc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2230', 'SYSTEMD_EXEC_PID': '2475', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5174', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mateozc', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'JOURNAL_STREAM': '9:17063', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/mateozc/Diplomado/Lab2/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mateozc', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/mateozc/Diplomado/Lab2/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mateozc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mateozc-Lenovo-ideapad-700S-14ISK:@/tmp/.ICE-unix/2439,unix/mateozc-Lenovo-ideapad-700S-14ISK:/tmp/.ICE-unix/2439', 'INVOCATION_ID': '65e473e4c4bf4c8e996c6b97e766badd', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OYWHJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3e98d76c-0c83-4972-9411-e4035a87fcd5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mateozc/Diplomado/Lab2/build/stage_ros2', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy:/home/mateozc/Diplomado/Lab2/install/stage:/home/mateozc/Diplomado/Lab2/install/stage_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[4.833734] (-) TimerEvent: {}
+[4.938168] (-) TimerEvent: {}
+[5.040007] (-) TimerEvent: {}
+[5.142262] (-) TimerEvent: {}
+[5.243343] (-) TimerEvent: {}
+[5.344450] (-) TimerEvent: {}
+[5.434659] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[5.444695] (-) TimerEvent: {}
+[5.545757] (-) TimerEvent: {}
+[5.646997] (-) TimerEvent: {}
+[5.697025] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[5.747238] (-) TimerEvent: {}
+[5.820274] (stage_ros2) CommandEnded: {'returncode': 0}
+[5.830211] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[5.832608] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mateozc/Diplomado/Lab2/build/stage_ros2'], 'cwd': '/home/mateozc/Diplomado/Lab2/build/stage_ros2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2475-5-mateozc-Lenovo-ideapad-700S-14ISK_TIME505705', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mateozc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/lib:/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mateozc', 'OLDPWD': '/home/mateozc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2230', 'SYSTEMD_EXEC_PID': '2475', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5174', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mateozc', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'JOURNAL_STREAM': '9:17063', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/mateozc/Diplomado/Lab2/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mateozc', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/mateozc/Diplomado/Lab2/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mateozc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mateozc-Lenovo-ideapad-700S-14ISK:@/tmp/.ICE-unix/2439,unix/mateozc-Lenovo-ideapad-700S-14ISK:/tmp/.ICE-unix/2439', 'INVOCATION_ID': '65e473e4c4bf4c8e996c6b97e766badd', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OYWHJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3e98d76c-0c83-4972-9411-e4035a87fcd5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mateozc/Diplomado/Lab2/build/stage_ros2', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy:/home/mateozc/Diplomado/Lab2/install/stage:/home/mateozc/Diplomado/Lab2/install/stage_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[5.849425] (-) TimerEvent: {}
+[5.918966] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.923229] (stage_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.926365] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[5.928716] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[5.932767] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[5.934358] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[5.935948] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[5.937490] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[5.938963] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[5.942636] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[5.944203] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[5.945611] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[5.947226] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[5.948796] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[5.949928] (-) TimerEvent: {}
+[5.951001] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[5.953341] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[5.958031] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[5.961720] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[5.963130] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[5.964409] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/cave_multi.world\n'}
+[5.970117] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[5.971368] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[5.979399] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[5.980538] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[5.981601] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[5.985017] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[5.988678] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[5.990280] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[5.991730] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[5.995046] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[5.996047] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[5.997432] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[5.998385] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[5.999431] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[6.000757] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[6.001901] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[6.002941] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/lib/libstage_node.so\n'}
+[6.004568] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[6.005791] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[6.007180] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[6.008279] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[6.009609] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[6.011127] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[6.013208] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[6.016228] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[6.019911] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[6.021267] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[6.022649] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[6.023611] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[6.050151] (-) TimerEvent: {}
+[6.114541] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[6.116555] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[6.118064] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[6.119665] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[6.135965] (stage_ros2) CommandEnded: {'returncode': 0}
+[6.150985] (-) TimerEvent: {}
+[6.254769] (-) TimerEvent: {}
+[6.281507] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[6.355063] (-) TimerEvent: {}
+[6.456190] (-) TimerEvent: {}
+[6.557203] (-) TimerEvent: {}
+[6.658060] (-) TimerEvent: {}
+[6.759559] (-) TimerEvent: {}
+[6.860514] (-) TimerEvent: {}
+[6.961522] (-) TimerEvent: {}
+[7.062445] (-) TimerEvent: {}
+[7.163411] (-) TimerEvent: {}
+[7.264408] (-) TimerEvent: {}
+[7.365389] (-) TimerEvent: {}
+[7.466411] (-) TimerEvent: {}
+[7.567565] (-) TimerEvent: {}
+[7.668467] (-) TimerEvent: {}
+[7.769489] (-) TimerEvent: {}
+[7.870524] (-) TimerEvent: {}
+[7.971499] (-) TimerEvent: {}
+[8.072553] (-) TimerEvent: {}
+[8.173613] (-) TimerEvent: {}
+[8.274673] (-) TimerEvent: {}
+[8.375613] (-) TimerEvent: {}
+[8.476590] (-) TimerEvent: {}
+[8.577609] (-) TimerEvent: {}
+[8.678533] (-) TimerEvent: {}
+[8.779392] (-) TimerEvent: {}
+[8.880237] (-) TimerEvent: {}
+[8.981159] (-) TimerEvent: {}
+[9.082316] (-) TimerEvent: {}
+[9.160107] (dqn_robot_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dqn_robot_nav', 'build', '--build-base', '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/build', 'install', '--record', '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mateozc/Diplomado/Lab2/src/dqn_robot_nav', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2475-5-mateozc-Lenovo-ideapad-700S-14ISK_TIME505705', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mateozc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/share', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib:/home/mateozc/Diplomado/Lab2/install/stage/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mateozc', 'OLDPWD': '/home/mateozc', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2230', 'SYSTEMD_EXEC_PID': '2475', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5174', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mateozc', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'JOURNAL_STREAM': '9:17063', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/mateozc/Diplomado/Lab2/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/mateozc/Diplomado/Lab2/install/stage/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mateozc', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/mateozc/Diplomado/Lab2/install/stage/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mateozc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mateozc-Lenovo-ideapad-700S-14ISK:@/tmp/.ICE-unix/2439,unix/mateozc-Lenovo-ideapad-700S-14ISK:/tmp/.ICE-unix/2439', 'INVOCATION_ID': '65e473e4c4bf4c8e996c6b97e766badd', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OYWHJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3e98d76c-0c83-4972-9411-e4035a87fcd5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/mateozc/Diplomado/Lab2/install/stage_ros2:/home/mateozc/Diplomado/Lab2/install/stage:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[9.182602] (-) TimerEvent: {}
+[9.283778] (-) TimerEvent: {}
+[9.384810] (-) TimerEvent: {}
+[9.486094] (-) TimerEvent: {}
+[9.587682] (-) TimerEvent: {}
+[9.693049] (-) TimerEvent: {}
+[9.796037] (-) TimerEvent: {}
+[9.897035] (-) TimerEvent: {}
+[9.998178] (-) TimerEvent: {}
+[10.099719] (-) TimerEvent: {}
+[10.202709] (-) TimerEvent: {}
+[10.304348] (-) TimerEvent: {}
+[10.406327] (-) TimerEvent: {}
+[10.507580] (-) TimerEvent: {}
+[10.609111] (-) TimerEvent: {}
+[10.713021] (-) TimerEvent: {}
+[10.814005] (-) TimerEvent: {}
+[10.915012] (-) TimerEvent: {}
+[11.020351] (-) TimerEvent: {}
+[11.125109] (-) TimerEvent: {}
+[11.230397] (-) TimerEvent: {}
+[11.332817] (-) TimerEvent: {}
+[11.440473] (-) TimerEvent: {}
+[11.544226] (-) TimerEvent: {}
+[11.649289] (-) TimerEvent: {}
+[11.750448] (-) TimerEvent: {}
+[11.855368] (-) TimerEvent: {}
+[11.962661] (-) TimerEvent: {}
+[12.063927] (-) TimerEvent: {}
+[12.165025] (-) TimerEvent: {}
+[12.266055] (-) TimerEvent: {}
+[12.371031] (-) TimerEvent: {}
+[12.472001] (-) TimerEvent: {}
+[12.573015] (-) TimerEvent: {}
+[12.673981] (-) TimerEvent: {}
+[12.723160] (dqn_robot_nav) StdoutLine: {'line': b'running egg_info\n'}
+[12.774231] (-) TimerEvent: {}
+[12.875153] (-) TimerEvent: {}
+[12.926170] (dqn_robot_nav) StdoutLine: {'line': b'writing ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/PKG-INFO\n'}
+[12.927758] (dqn_robot_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/dependency_links.txt\n'}
+[12.929438] (dqn_robot_nav) StdoutLine: {'line': b'writing entry points to ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/entry_points.txt\n'}
+[12.930562] (dqn_robot_nav) StdoutLine: {'line': b'writing requirements to ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/requires.txt\n'}
+[12.931547] (dqn_robot_nav) StdoutLine: {'line': b'writing top-level names to ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/top_level.txt\n'}
+[12.975391] (-) TimerEvent: {}
+[13.076196] (-) TimerEvent: {}
+[13.177050] (-) TimerEvent: {}
+[13.277942] (-) TimerEvent: {}
+[13.325691] (dqn_robot_nav) StdoutLine: {'line': b"reading manifest file '../../build/dqn_robot_nav/dqn_robot_nav.egg-info/SOURCES.txt'\n"}
+[13.332185] (dqn_robot_nav) StdoutLine: {'line': b"writing manifest file '../../build/dqn_robot_nav/dqn_robot_nav.egg-info/SOURCES.txt'\n"}
+[13.333455] (dqn_robot_nav) StdoutLine: {'line': b'running build\n'}
+[13.334585] (dqn_robot_nav) StdoutLine: {'line': b'running build_py\n'}
+[13.336507] (dqn_robot_nav) StdoutLine: {'line': b'copying dqn_robot_nav/environment.py -> /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/build/lib/dqn_robot_nav\n'}
+[13.339136] (dqn_robot_nav) StdoutLine: {'line': b'running install\n'}
+[13.377685] (dqn_robot_nav) StdoutLine: {'line': b'running install_lib\n'}
+[13.378798] (-) TimerEvent: {}
+[13.479636] (-) TimerEvent: {}
+[13.568658] (dqn_robot_nav) StdoutLine: {'line': b'copying /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/build/lib/dqn_robot_nav/environment.py -> /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages/dqn_robot_nav\n'}
+[13.572727] (dqn_robot_nav) StdoutLine: {'line': b'byte-compiling /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages/dqn_robot_nav/environment.py to environment.cpython-312.pyc\n'}
+[13.579900] (-) TimerEvent: {}
+[13.582136] (dqn_robot_nav) StdoutLine: {'line': b'running install_data\n'}
+[13.583922] (dqn_robot_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.680131] (-) TimerEvent: {}
+[13.781037] (-) TimerEvent: {}
+[13.804270] (dqn_robot_nav) StdoutLine: {'line': b"removing '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages/dqn_robot_nav-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[13.807630] (dqn_robot_nav) StdoutLine: {'line': b'Copying ../../build/dqn_robot_nav/dqn_robot_nav.egg-info to /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages/dqn_robot_nav-0.0.0-py3.12.egg-info\n'}
+[13.816506] (dqn_robot_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[13.881313] (-) TimerEvent: {}
+[13.982166] (-) TimerEvent: {}
+[14.083221] (-) TimerEvent: {}
+[14.186196] (-) TimerEvent: {}
+[14.287212] (-) TimerEvent: {}
+[14.388167] (-) TimerEvent: {}
+[14.490549] (-) TimerEvent: {}
+[14.591536] (-) TimerEvent: {}
+[14.692431] (-) TimerEvent: {}
+[14.793320] (-) TimerEvent: {}
+[14.894365] (-) TimerEvent: {}
+[14.995201] (-) TimerEvent: {}
+[15.081789] (dqn_robot_nav) StdoutLine: {'line': b'Installing reset_stage script to /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/dqn_robot_nav\n'}
+[15.083072] (dqn_robot_nav) StdoutLine: {'line': b'Installing test_node script to /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/dqn_robot_nav\n'}
+[15.084296] (dqn_robot_nav) StdoutLine: {'line': b'Installing train_node script to /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/dqn_robot_nav\n'}
+[15.087216] (dqn_robot_nav) StdoutLine: {'line': b"writing list of installed files to '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/install.log'\n"}
+[15.095459] (-) TimerEvent: {}
+[15.196383] (-) TimerEvent: {}
+[15.262950] (dqn_robot_nav) CommandEnded: {'returncode': 0}
+[15.298217] (-) TimerEvent: {}
+[15.309407] (dqn_robot_nav) JobEnded: {'identifier': 'dqn_robot_nav', 'rc': 0}
+[15.314674] (-) EventReactorShutdown: {}

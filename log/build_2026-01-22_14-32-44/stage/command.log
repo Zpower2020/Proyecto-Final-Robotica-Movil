@@ -1,0 +1,6 @@
+Invoking command in '/home/mateozc/Diplomado/Lab2/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mateozc/Diplomado/Lab2/src/Stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mateozc/Diplomado/Lab2/install/stage
+Invoked command in '/home/mateozc/Diplomado/Lab2/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mateozc/Diplomado/Lab2/src/Stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mateozc/Diplomado/Lab2/install/stage
+Invoking command in '/home/mateozc/Diplomado/Lab2/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateozc/Diplomado/Lab2/build/stage -- -j4 -l4
+Invoked command in '/home/mateozc/Diplomado/Lab2/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateozc/Diplomado/Lab2/build/stage -- -j4 -l4
+Invoking command in '/home/mateozc/Diplomado/Lab2/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateozc/Diplomado/Lab2/build/stage
+Invoked command in '/home/mateozc/Diplomado/Lab2/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateozc/Diplomado/Lab2/build/stage

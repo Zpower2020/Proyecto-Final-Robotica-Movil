@@ -1,0 +1,129 @@
+[0.138s] Invoking command in '/home/mateozc/Diplomado/Lab2/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateozc/Diplomado/Lab2/build/stage -- -j4 -l4
+[0.677s] [ 57%] Built target stage
+[0.868s] [ 61%] Built target stagebinary
+[1.052s] [ 64%] Built target source
+[1.211s] [ 67%] Built target wander
+[1.381s] [ 71%] Built target pioneer_flocking
+[1.551s] [ 74%] Built target rasterize
+[1.685s] [ 77%] Built target lasernoise
+[1.841s] [ 81%] Built target dynamic
+[1.999s] [ 86%] Built target fasr2
+[2.145s] [ 89%] Built target expand_swarm
+[2.275s] [ 93%] Built target expand_pioneer
+[2.405s] [ 96%] Built target sink
+[2.547s] [100%] Built target fasr
+[2.612s] Invoked command in '/home/mateozc/Diplomado/Lab2/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateozc/Diplomado/Lab2/build/stage -- -j4 -l4
+[2.675s] Invoking command in '/home/mateozc/Diplomado/Lab2/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateozc/Diplomado/Lab2/build/stage
+[2.723s] -- Install configuration: "RELEASE"
+[2.724s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/pkgconfig/stage.pc
+[2.725s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/cmake/Stage/stage-config.cmake
+[2.726s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/cmake/Stage/stage-config-version.cmake
+[2.727s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/bin/stage
+[2.731s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/libstage.so.4.3.0
+[2.732s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/libstage.so
+[2.733s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/include/Stage-4.3/stage.hh
+[2.736s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/fasr.so
+[2.738s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/sink.so
+[2.740s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/source.so
+[2.743s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/wander.so
+[2.745s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/pioneer_flocking.so
+[2.748s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/rasterize.so
+[2.750s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/lasernoise.so
+[2.752s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/dynamic.so
+[2.755s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/fasr2.so
+[2.757s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/blue.png
+[2.759s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/death.png
+[2.759s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/green.png
+[2.760s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/logo.png
+[2.762s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/mains.png
+[2.763s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/mainspower.png
+[2.764s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/question_mark.png
+[2.765s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/red.png
+[2.767s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/stagelogo.png
+[2.768s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/stall-old.png
+[2.769s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/stall.png
+[2.770s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/assets/rgb.txt
+[2.770s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/rgb.txt
+[2.771s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/amcl-sonar.cfg
+[2.772s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/autolab.cfg
+[2.773s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/camera.cfg
+[2.774s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/everything.cfg
+[2.775s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/lsp_test.cfg
+[2.775s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/mbicp.cfg
+[2.776s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/nd.cfg
+[2.777s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/roomba.cfg
+[2.778s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/simple.cfg
+[2.779s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/test.cfg
+[2.780s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/uoa_robotics_lab.cfg
+[2.781s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/vfh.cfg
+[2.782s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wavefront-remote.cfg
+[2.783s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wavefront.cfg
+[2.784s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi.cfg
+[2.785s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/SFU.world
+[2.785s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/autolab.world
+[2.786s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/camera.world
+[2.787s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/circuit.world
+[2.788s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/everything.world
+[2.789s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/fasr.world
+[2.789s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/fasr2.world
+[2.790s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/fasr_plan.world
+[2.791s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/large.world
+[2.791s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/lsp_test.world
+[2.792s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/mbicp.world
+[2.793s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pioneer_flocking.world
+[2.793s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pioneer_follow.world
+[2.794s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pioneer_walle.world
+[2.795s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/roomba.world
+[2.795s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/sensor_noise_demo.world
+[2.796s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/sensor_noise_module_demo.world
+[2.797s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/simple.world
+[2.798s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/uoa_robotics_lab.world
+[2.798s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi.world
+[2.799s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/beacons.inc
+[2.800s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/chatterbox.inc
+[2.800s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/hokuyo.inc
+[2.801s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/irobot.inc
+[2.802s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/map.inc
+[2.802s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/objects.inc
+[2.803s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pantilt.inc
+[2.804s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/pioneer.inc
+[2.804s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/sick.inc
+[2.805s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/ubot.inc
+[2.806s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[2.806s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/walle.inc
+[2.807s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/cfggen.sh
+[2.808s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/test.sh
+[2.809s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/worldgen.sh
+[2.810s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/expand_swarm.so
+[2.812s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/lib/Stage-4.3/expand_pioneer.so
+[2.813s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/889_05.png
+[2.813s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[2.814s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[2.816s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/autolab.png
+[2.817s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/cave.png
+[2.818s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/cave_compact.png
+[2.818s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/cave_filled.png
+[2.819s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/frieburg.png
+[2.820s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/ghost.png
+[2.821s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/hospital.png
+[2.822s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/hospital_section.png
+[2.823s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/human_outline.png
+[2.823s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/mbicp.png
+[2.825s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/rink.png
+[2.826s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/sal2.png
+[2.827s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/simple_rooms.png
+[2.829s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/space_invader.png
+[2.832s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/submarine.png
+[2.832s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/submarine_small.png
+[2.833s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/table.png
+[2.835s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[2.835s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/commando.world
+[2.837s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/hosp_wifi.world
+[2.838s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[2.838s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi.world
+[2.838s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi_itu.world
+[2.839s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi_logdistance.world
+[2.840s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi_ray.world
+[2.840s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/wifi_simple.world
+[2.841s] -- Up-to-date: /home/mateozc/Diplomado/Lab2/install/stage/share/stage/worlds/wifi/map.inc
+[2.842s] Invoked command in '/home/mateozc/Diplomado/Lab2/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateozc/Diplomado/Lab2/build/stage

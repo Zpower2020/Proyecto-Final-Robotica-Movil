@@ -1,0 +1,301 @@
+[0.551s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.552s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71055949e180>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71055949da00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71055949da00>>, mixin_verb=('build',))
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.742s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.742s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mateozc/Diplomado/Lab2'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extension 'ignore_ament_install'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extensions ['colcon_pkg']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extension 'colcon_pkg'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extensions ['colcon_meta']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extension 'colcon_meta'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extension 'ros'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extensions ['cmake', 'python']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extension 'cmake'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extension 'python'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extensions ['python_setup_py']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models) by extension 'python_setup_py'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extensions ['ignore', 'ignore_ament_install']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extension 'ignore'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extension 'ignore_ament_install'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extensions ['colcon_pkg']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extension 'colcon_pkg'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extensions ['colcon_meta']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extension 'colcon_meta'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extensions ['ros']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extension 'ros'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extensions ['cmake', 'python']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extension 'cmake'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extension 'python'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extensions ['python_setup_py']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(saved_models_1) by extension 'python_setup_py'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ignore', 'ignore_ament_install']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore_ament_install'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_pkg']
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_pkg'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_meta']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_meta'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ros']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ros'
+[0.913s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Stage' with type 'ros.catkin' and name 'stage'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/dqn_robot_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/dqn_robot_nav) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/dqn_robot_nav) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/dqn_robot_nav) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/dqn_robot_nav) by extension 'colcon_pkg'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/dqn_robot_nav) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/dqn_robot_nav) by extension 'colcon_meta'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/dqn_robot_nav) by extensions ['ros']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/dqn_robot_nav) by extension 'ros'
+[0.924s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dqn_robot_nav' with type 'ros.ament_python' and name 'dqn_robot_nav'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore_ament_install'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_pkg']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_pkg'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_meta']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_meta'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ros']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ros'
+[0.938s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stage_ros2' with type 'ros.ament_cmake' and name 'stage_ros2'
+[0.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.120s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mateozc/Diplomado/Lab2/install
+[1.142s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 505 installed packages in /opt/ros/jazzy
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.050s] Level 5:colcon.colcon_core.verb:set package 'dqn_robot_nav' build argument 'cmake_args' from command line to 'None'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'dqn_robot_nav' build argument 'cmake_target' from command line to 'None'
+[2.051s] Level 5:colcon.colcon_core.verb:set package 'dqn_robot_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'dqn_robot_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'dqn_robot_nav' build argument 'cmake_clean_first' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'dqn_robot_nav' build argument 'cmake_force_configure' from command line to 'False'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'dqn_robot_nav' build argument 'ament_cmake_args' from command line to 'None'
+[2.052s] Level 5:colcon.colcon_core.verb:set package 'dqn_robot_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[2.053s] Level 5:colcon.colcon_core.verb:set package 'dqn_robot_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.053s] DEBUG:colcon.colcon_core.verb:Building package 'dqn_robot_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav', 'merge_install': False, 'path': '/home/mateozc/Diplomado/Lab2/src/dqn_robot_nav', 'symlink_install': False, 'test_result_base': None}
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_args' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_target' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_clean_cache' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_clean_first' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'cmake_force_configure' from command line to 'False'
+[2.057s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'ament_cmake_args' from command line to 'None'
+[2.057s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'catkin_cmake_args' from command line to 'None'
+[2.057s] Level 5:colcon.colcon_core.verb:set package 'stage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.057s] DEBUG:colcon.colcon_core.verb:Building package 'stage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mateozc/Diplomado/Lab2/build/stage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mateozc/Diplomado/Lab2/install/stage', 'merge_install': False, 'path': '/home/mateozc/Diplomado/Lab2/src/Stage', 'symlink_install': False, 'test_result_base': None}
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_args' from command line to 'None'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target' from command line to 'None'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.059s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.060s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.060s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.060s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.060s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.060s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.061s] DEBUG:colcon.colcon_core.verb:Building package 'stage_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mateozc/Diplomado/Lab2/build/stage_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mateozc/Diplomado/Lab2/install/stage_ros2', 'merge_install': False, 'path': '/home/mateozc/Diplomado/Lab2/src/stage_ros2', 'symlink_install': False, 'test_result_base': None}
+[2.061s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.065s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.068s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/mateozc/Diplomado/Lab2/src/Stage' with build type 'catkin'
+[2.069s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mateozc/Diplomado/Lab2/src/Stage'
+[2.083s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.119s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mateozc/Diplomado/Lab2/src/dqn_robot_nav' with build type 'ament_python'
+[2.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('dqn_robot_nav', 'ament_prefix_path')
+[2.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/hook/ament_prefix_path.ps1'
+[2.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/hook/ament_prefix_path.dsv'
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/hook/ament_prefix_path.sh'
+[2.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mateozc/Diplomado/Lab2/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateozc/Diplomado/Lab2/build/stage -- -j4 -l4
+[4.649s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mateozc/Diplomado/Lab2/src/dqn_robot_nav'
+[4.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mateozc/Diplomado/Lab2/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mateozc/Diplomado/Lab2/build/stage -- -j4 -l4
+[4.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mateozc/Diplomado/Lab2/build/stage': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateozc/Diplomado/Lab2/build/stage
+[4.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'ros_package_path')
+[4.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/ros_package_path.ps1'
+[4.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/ros_package_path.dsv'
+[4.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/ros_package_path.sh'
+[4.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'pkg_config_path')
+[4.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pkg_config_path.ps1'
+[4.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pkg_config_path.dsv'
+[4.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pkg_config_path.sh'
+[4.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'pkg_config_path_multiarch')
+[4.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pkg_config_path_multiarch.ps1'
+[4.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pkg_config_path_multiarch.dsv'
+[4.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pkg_config_path_multiarch.sh'
+[4.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mateozc/Diplomado/Lab2/build/stage' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mateozc/Diplomado/Lab2/build/stage
+[4.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage)
+[4.988s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage' for CMake module files
+[4.992s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage' for CMake config files
+[4.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'cmake_prefix_path')
+[4.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/cmake_prefix_path.ps1'
+[4.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/cmake_prefix_path.dsv'
+[5.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/cmake_prefix_path.sh'
+[5.006s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage/lib'
+[5.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'ld_library_path_lib')
+[5.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/ld_library_path_lib.ps1'
+[5.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/ld_library_path_lib.dsv'
+[5.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/ld_library_path_lib.sh'
+[5.062s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage/bin'
+[5.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'path')
+[5.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/path.ps1'
+[5.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/path.dsv'
+[5.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/path.sh'
+[5.071s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage/lib/pkgconfig/stage.pc'
+[5.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'pkg_config')
+[5.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pkg_config.ps1'
+[5.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pkg_config.dsv'
+[5.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pkg_config.sh'
+[5.081s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage/lib/python3.12/site-packages'
+[5.082s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage/bin'
+[5.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage', 'pythonscriptspath')
+[5.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pythonscriptspath.ps1'
+[5.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pythonscriptspath.dsv'
+[5.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/hook/pythonscriptspath.sh'
+[5.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/package.ps1'
+[5.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/package.dsv'
+[5.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/package.sh'
+[5.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/package.bash'
+[5.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage/share/stage/package.zsh'
+[5.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mateozc/Diplomado/Lab2/install/stage/share/colcon-core/packages/stage)
+[5.116s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mateozc/Diplomado/Lab2/src/stage_ros2' with build type 'ament_cmake'
+[5.118s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mateozc/Diplomado/Lab2/src/stage_ros2'
+[5.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mateozc/Diplomado/Lab2/build/stage_ros2': CMAKE_PREFIX_PATH=/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy:/home/mateozc/Diplomado/Lab2/install/stage:/home/mateozc/Diplomado/Lab2/install/stage_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mateozc/Diplomado/Lab2/install/stage/lib:/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/mateozc/Diplomado/Lab2/build/stage_ros2 -- -j4 -l4
+[5.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mateozc/Diplomado/Lab2/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy:/home/mateozc/Diplomado/Lab2/install/stage:/home/mateozc/Diplomado/Lab2/install/stage_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mateozc/Diplomado/Lab2/install/stage/lib:/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/mateozc/Diplomado/Lab2/build/stage_ros2 -- -j4 -l4
+[5.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mateozc/Diplomado/Lab2/build/stage_ros2': CMAKE_PREFIX_PATH=/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy:/home/mateozc/Diplomado/Lab2/install/stage:/home/mateozc/Diplomado/Lab2/install/stage_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mateozc/Diplomado/Lab2/install/stage/lib:/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/mateozc/Diplomado/Lab2/build/stage_ros2
+[6.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[6.078s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2' for CMake module files
+[6.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mateozc/Diplomado/Lab2/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav:/opt/ros/jazzy:/home/mateozc/Diplomado/Lab2/install/stage:/home/mateozc/Diplomado/Lab2/install/stage_ros2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mateozc/Diplomado/Lab2/install/stage/lib:/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/mateozc/Diplomado/Lab2/build/stage_ros2
+[6.085s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2' for CMake config files
+[6.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[6.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[6.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[6.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[6.096s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib'
+[6.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[6.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[6.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[6.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[6.103s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/bin'
+[6.104s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[6.105s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib/python3.12/site-packages'
+[6.107s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/bin'
+[6.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.ps1'
+[6.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.dsv'
+[6.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.sh'
+[6.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.bash'
+[6.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.zsh'
+[6.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[6.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2' for CMake module files
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2' for CMake config files
+[6.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[6.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[6.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[6.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[6.138s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib'
+[6.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[6.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[6.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[6.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[6.146s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/bin'
+[6.146s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[6.148s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/lib/python3.12/site-packages'
+[6.150s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/stage_ros2/bin'
+[6.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.ps1'
+[6.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.dsv'
+[6.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.sh'
+[6.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.bash'
+[6.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/stage_ros2/package.zsh'
+[6.165s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mateozc/Diplomado/Lab2/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[8.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mateozc/Diplomado/Lab2/src/dqn_robot_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dqn_robot_nav build --build-base /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/build install --record /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/install.log --single-version-externally-managed install_data
+[11.084s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav' for CMake module files
+[11.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mateozc/Diplomado/Lab2/src/dqn_robot_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dqn_robot_nav build --build-base /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/build install --record /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/install.log --single-version-externally-managed install_data
+[11.088s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav' for CMake config files
+[11.092s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib'
+[11.093s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/bin'
+[11.093s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/pkgconfig/dqn_robot_nav.pc'
+[11.094s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages'
+[11.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('dqn_robot_nav', 'pythonpath')
+[11.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/hook/pythonpath.ps1'
+[11.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/hook/pythonpath.dsv'
+[11.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/hook/pythonpath.sh'
+[11.103s] Level 1:colcon.colcon_core.environment:checking '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/bin'
+[11.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dqn_robot_nav)
+[11.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/package.ps1'
+[11.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/package.dsv'
+[11.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/package.sh'
+[11.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/package.bash'
+[11.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/package.zsh'
+[11.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/colcon-core/packages/dqn_robot_nav)
+[11.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.116s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.138s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.201s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mateozc/Diplomado/Lab2/install/local_setup.ps1'
+[11.206s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mateozc/Diplomado/Lab2/install/_local_setup_util_ps1.py'
+[11.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mateozc/Diplomado/Lab2/install/setup.ps1'
+[11.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mateozc/Diplomado/Lab2/install/local_setup.sh'
+[11.221s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mateozc/Diplomado/Lab2/install/_local_setup_util_sh.py'
+[11.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mateozc/Diplomado/Lab2/install/setup.sh'
+[11.228s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mateozc/Diplomado/Lab2/install/local_setup.bash'
+[11.231s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mateozc/Diplomado/Lab2/install/setup.bash'
+[11.235s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mateozc/Diplomado/Lab2/install/local_setup.zsh'
+[11.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mateozc/Diplomado/Lab2/install/setup.zsh'
