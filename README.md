@@ -4,29 +4,18 @@ Este proyecto implementa un agente de Aprendizaje por Refuerzo (DQN) para la nav
 
 ## 1. Instalación y Obtención del Proyecto
 
-Dirígete a la carpeta `src` de tu workspace:
+Dirígete a la carpeta donde desees clonar el repositorio y pega el siguiente comando:
+
 
 ```bash
-cd ~/tucarpeta_ws/src
+git clone https://github.com/Zpower2020/Proyecto-Final-Robotica-Movil.git
 ```
 
-Clona el repositorio:
-
-```bash
-git clone [https://github.com/Zpower2020/Proyecto-Final-Robotica-Movil.git](https://github.com/Zpower2020/Proyecto-Final-Robotica-Movil.git)
-```
-
-**Renombrar la carpeta (OBLIGATORIO):**
-El sistema espera que el paquete se llame "dqn_robot_nav".
-
-```bash
-mv Proyecto-Final-Robotica-Movil dqn_robot_nav
-```
 
 Compilar el proyecto:
 
 ```bash
-cd ~/tucarpeta_ws
+cd ~/Proyecto-Final-Robotica-Movil
 colcon build --symlink-install
 source install/setup.bash
 ```
