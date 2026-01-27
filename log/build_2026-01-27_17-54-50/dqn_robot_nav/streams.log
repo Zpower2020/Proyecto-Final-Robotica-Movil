@@ -1,0 +1,24 @@
+[8.818s] Invoking command in '/home/mateozc/Diplomado/Lab2/src/dqn_robot_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dqn_robot_nav build --build-base /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/build install --record /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/install.log --single-version-externally-managed install_data
+[11.485s] running egg_info
+[11.703s] writing ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/PKG-INFO
+[11.705s] writing dependency_links to ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/dependency_links.txt
+[11.707s] writing entry points to ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/entry_points.txt
+[11.708s] writing requirements to ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/requires.txt
+[11.709s] writing top-level names to ../../build/dqn_robot_nav/dqn_robot_nav.egg-info/top_level.txt
+[12.148s] reading manifest file '../../build/dqn_robot_nav/dqn_robot_nav.egg-info/SOURCES.txt'
+[12.160s] writing manifest file '../../build/dqn_robot_nav/dqn_robot_nav.egg-info/SOURCES.txt'
+[12.161s] running build
+[12.163s] running build_py
+[12.168s] running install
+[12.232s] running install_lib
+[12.469s] running install_data
+[12.471s] running install_egg_info
+[12.807s] removing '/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages/dqn_robot_nav-0.0.0-py3.12.egg-info' (and everything under it)
+[12.810s] Copying ../../build/dqn_robot_nav/dqn_robot_nav.egg-info to /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages/dqn_robot_nav-0.0.0-py3.12.egg-info
+[12.818s] running install_scripts
+[14.057s] Installing reconstruct_history script to /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/dqn_robot_nav
+[14.058s] Installing reset_stage script to /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/dqn_robot_nav
+[14.059s] Installing test_node script to /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/dqn_robot_nav
+[14.060s] Installing train_node script to /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/dqn_robot_nav
+[14.064s] writing list of installed files to '/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/install.log'
+[14.255s] Invoked command in '/home/mateozc/Diplomado/Lab2/src/dqn_robot_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dqn_robot_nav build --build-base /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/build install --record /home/mateozc/Diplomado/Lab2/build/dqn_robot_nav/install.log --single-version-externally-managed install_data
