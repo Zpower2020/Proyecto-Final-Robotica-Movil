@@ -18,6 +18,7 @@
 /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages/dqn_robot_nav/__pycache__/dqn_agent.cpython-312.pyc
 /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/ament_index/resource_index/packages/dqn_robot_nav
 /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/package.xml
+/home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/launch/generate_graphs.launch.py
 /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/launch/train_env.launch.py
 /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/share/dqn_robot_nav/launch/test_env.launch.py
 /home/mateozc/Diplomado/Lab2/install/dqn_robot_nav/lib/python3.12/site-packages/dqn_robot_nav-0.0.0-py3.12.egg-info/zip-safe

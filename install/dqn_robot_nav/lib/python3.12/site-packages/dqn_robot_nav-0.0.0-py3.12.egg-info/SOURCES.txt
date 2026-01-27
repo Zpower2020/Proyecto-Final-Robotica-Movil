@@ -17,6 +17,7 @@ dqn_robot_nav/reset_stage.py
 dqn_robot_nav/state_processor.py
 dqn_robot_nav/test_node.py
 dqn_robot_nav/train_node.py
+launch/generate_graphs.launch.py
 launch/test_env.launch.py
 launch/train_env.launch.py
 resource/dqn_robot_nav
