@@ -1,5 +1,7 @@
 # Navegación Autónoma con Deep Q-Network (DQN) en ROS2
 
+Integrantes: Mateo Zegarra, Fabricio Berdeja y Sahori Tapia
+
 Este proyecto implementa un agente de Aprendizaje por Refuerzo (DQN) para la navegación autónoma de un robot móvil en el simulador Stage. El sistema utiliza ROS2 Humble y procesa lecturas de LiDAR 2D para navegar hacia objetivos aleatorios evitando obstáculos.
 
 ## 1. Instalación y Obtención del Proyecto
